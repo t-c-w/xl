@@ -1,5 +1,5 @@
 """Parsing google results"""
-__author__ = 'thorwhalen'
+__author__ = 'tcw'
 
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
@@ -7,14 +7,13 @@ import os, sys
 from bs4 import BeautifulSoup
 import re
 import os.path
-from ut.pfile.name import files_of_folder
-from ut.pfile.name import replace_folder_and_ext
+from utcw.pfile.name import files_of_folder
+from utcw.pfile.name import replace_folder_and_ext
 from urllib.request import urlopen
-from ut.pfile import to
 from lxml import etree
 import pickle
 import tldextract
-import ut.parse.util as putil
+import utcw.parse.util as putil
 from urllib.parse import urlparse, parse_qs
 
 # RE_HAS_NEW_LINE = re.compile('\n|\r')
